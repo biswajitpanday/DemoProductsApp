@@ -1,0 +1,119 @@
+################ Gitignore file for .Net Users ###############
+# Don't ignore myself!
+!.gitignore
+
+# IISNode Config
+web.config
+iisnode/
+
+# VS Project Files
+*.njsproj
+*.sln
+
+# Visual Studio build objects
+bin/
+csx/
+obj/
+
+# Windows Azure Publish Settings Contains Security Keys For Accessing Your Windows Azure Account
+.publishsettings
+
+# Visual Studio user-specific Files
+## Useful whenever working as part of a team or on software (like open source) that others will download
+*.suo
+*.user
+
+# NuGet
+# Also consider letting NuGet Automatically Restore Missing Packages For You: 
+## http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages/
+packages/
+
+# ReSharper
+_Resharper*/
+
+# NCrunch
+*ncrunch*
+
+# Windows Files
+*.db
+*.mdf
+*.ldf
+
+# Log Files
+*.svclog
+*.log
+
+# Publish Files
+*.pubxml
+
+# <<<<<<<<<<<<<<<<<<<
+# OSX Files
+# <<<<<<<<<<<<<<<<<<<
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# <<<<<<<<<<<<<<<<<<<
+# IntelliJ Files
+# <<<<<<<<<<<<<<<<<<<
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# <<<<<<<<<<<<<<<<<<<
+# NetBeans Files
+# <<<<<<<<<<<<<<<<<<<
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbaction.xml
+nb-configuration.xml
+
+# <<<<<<<<<<<<<<<<<<<
+# Node Files
+# <<<<<<<<<<<<<<<<<<<
+.nodemonignore
+npm-debug-log
+
+# Dependency directory
+node_modules
+
+# <<<<<<<<<<<<<<<<<<<
+# SASS Files
+# <<<<<<<<<<<<<<<<<<<
+.sass-cache/
+
+# <<<<<<<<<<<<<<<<<<<
+# Bower Files
+# <<<<<<<<<<<<<<<<<<<
+.bower-*/
+bower-components
+
+# <<<<<<<<<<<<<<<<<<<
+# Grunt Files
+# <<<<<<<<<<<<<<<<<<<
+.grunt
+
+
+# >>>>>>>>>>>>>>>>>>>> Troubleshooting <<<<<<<<<<<<<<<<<<<
+
+# 1. If you add a .gitignore file to an existing repo (or significantly change one), you may want
+# to force it to act as though the new/updated .gitignore was in force the whole time.
+## http://stackoverflow.com/questions/1139762/gitignore-file-not-ignoring
+
+### git rm -r --cached .
+### git add .
+### git commit -m ".gitignore is now working"
+
+# 2. If you get an Unsynchronized Commit error in the GitHub Windows client, you may want to try this.
+## http://stackoverflow.com/questions/8174324/github-unsynchronized-commit
+
+# 3. If you get "unstaged changes" "you cannot sync with unstaged changes" "please commit your changes and try again" from
+# Github for Windows client...
